@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE0101036C8CB7834154318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49563011BF5D8657C9562F62 /* Assets.xcassets */; };
+		3D5D21A222A7CD9958279414 /* RabbitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6244FF51AF86591972BC24 /* RabbitDetail.swift */; };
+		442B3BCB79F478BBC4F444F4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB740BB298D516EC6E966A3 /* RootView.swift */; };
+		47C9DF5C192BA87370918B82 /* RedisSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987184202711F5E20109D8AB /* RedisSession.swift */; };
+		4FC19258CB2992ADF4340725 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4565BF7D6642BA563D060E /* Components.swift */; };
+		532BB77F971A4F3C2D667FA9 /* RedisDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504D5A33D4DF45AA8CBEBF1 /* RedisDetail.swift */; };
+		5DE43A67BCCB07CA5BDD973C /* PublishSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E4180284EE6541A1B379A1 /* PublishSheet.swift */; };
+		645C3B7D67DA3F24611E14C8 /* ConnectionProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455B739261F0AD04D0743F9 /* ConnectionProfile.swift */; };
+		9B37982A7342777B868DA719 /* ExchangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0104E24F737720530D42021 /* ExchangesView.swift */; };
+		A0984F7A93371F81E3263683 /* KeyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD5735C962380E347FC10A6 /* KeyDetailView.swift */; };
+		A6DE23BBC95DD9644DA09294 /* KeysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958BFF96271B69DB48E75BE8 /* KeysView.swift */; };
+		A6E0182FB059E2C10A46427E /* QueueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484136F5491832392171A45F /* QueueDetailView.swift */; };
+		AF2417C375DB1CD18C788B66 /* WatchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8F4219FA604D9F58530458 /* WatchStore.swift */; };
+		B0800E1BD1F0D4E3DFE7DC80 /* RedisServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706728AD3BCFA79313616CC5 /* RedisServerView.swift */; };
+		B2EBE5D37C03C69D87B9E9A8 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012217A6E6EA4F88EBED83A6 /* ConsoleView.swift */; };
+		B921BFFE2893E0918C44D8EF /* QueuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91118829C98810FA9E7A77F3 /* QueuesView.swift */; };
+		BB31F08734266D72F8476157 /* SpoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A402528B1EB00184B412C /* SpoolApp.swift */; };
+		CE1C29B123E75C88958433BD /* RabbitSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8D5B0E99D88F3CB9359FF /* RabbitSession.swift */; };
+		EA307BC699EBB18AA14E2CBD /* NewKeySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00636C852931778B658D51 /* NewKeySheet.swift */; };
+		EAB820CABDDA1499E2D417B1 /* ConnectionEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E345CF14F2738A7FDDF194 /* ConnectionEditor.swift */; };
+		F04AE2991CC97DA8224619AB /* SpoolKit in Frameworks */ = {isa = PBXBuildFile; productRef = 29E8EAFF37215E99805F5D5B /* SpoolKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012217A6E6EA4F88EBED83A6 /* ConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleView.swift; sourceTree = "<group>"; };
+		0504D5A33D4DF45AA8CBEBF1 /* RedisDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisDetail.swift; sourceTree = "<group>"; };
+		21D298CB98A4D10F64998FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2679E50F44916CD48C32D81C /* Spool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spool.entitlements; sourceTree = "<group>"; };
+		27E4180284EE6541A1B379A1 /* PublishSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishSheet.swift; sourceTree = "<group>"; };
+		34D8D5B0E99D88F3CB9359FF /* RabbitSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitSession.swift; sourceTree = "<group>"; };
+		484136F5491832392171A45F /* QueueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueDetailView.swift; sourceTree = "<group>"; };
+		49563011BF5D8657C9562F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD5735C962380E347FC10A6 /* KeyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyDetailView.swift; sourceTree = "<group>"; };
+		6D8F4219FA604D9F58530458 /* WatchStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchStore.swift; sourceTree = "<group>"; };
+		706728AD3BCFA79313616CC5 /* RedisServerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisServerView.swift; sourceTree = "<group>"; };
+		7A4565BF7D6642BA563D060E /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		7DB740BB298D516EC6E966A3 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7E059FDD36C5BE698ABA4ECC /* SpoolKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SpoolKit; path = Packages/SpoolKit; sourceTree = SOURCE_ROOT; };
+		91118829C98810FA9E7A77F3 /* QueuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueuesView.swift; sourceTree = "<group>"; };
+		958BFF96271B69DB48E75BE8 /* KeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysView.swift; sourceTree = "<group>"; };
+		987184202711F5E20109D8AB /* RedisSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisSession.swift; sourceTree = "<group>"; };
+		CD6244FF51AF86591972BC24 /* RabbitDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitDetail.swift; sourceTree = "<group>"; };
+		D2E345CF14F2738A7FDDF194 /* ConnectionEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionEditor.swift; sourceTree = "<group>"; };
+		D455B739261F0AD04D0743F9 /* ConnectionProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionProfile.swift; sourceTree = "<group>"; };
+		E0104E24F737720530D42021 /* ExchangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangesView.swift; sourceTree = "<group>"; };
+		E26527B0500836CC5B83D0B4 /* Spool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB00636C852931778B658D51 /* NewKeySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewKeySheet.swift; sourceTree = "<group>"; };
+		F47A402528B1EB00184B412C /* SpoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoolApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425E4DA63F855F48B8209ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04AE2991CC97DA8224619AB /* SpoolKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AAA8F4FA93D8981B1EA601 /* Spool */ = {
+			isa = PBXGroup;
+			children = (
+				49563011BF5D8657C9562F62 /* Assets.xcassets */,
+				21D298CB98A4D10F64998FD5 /* Info.plist */,
+				2679E50F44916CD48C32D81C /* Spool.entitlements */,
+				F47A402528B1EB00184B412C /* SpoolApp.swift */,
+				DD179C7FE57014C0B45CA561 /* Model */,
+				DBFEFCEB5170A47FBD5FB7DA /* Views */,
+			);
+			path = Spool;
+			sourceTree = "<group>";
+		};
+		339CF0BE4D9064330DE3C4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26527B0500836CC5B83D0B4 /* Spool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C0FAC44CDC899B6DC6F5877 = {
+			isa = PBXGroup;
+			children = (
+				682D7765691FE03ECC372054 /* Packages */,
+				04AAA8F4FA93D8981B1EA601 /* Spool */,
+				339CF0BE4D9064330DE3C4E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		682D7765691FE03ECC372054 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				7E059FDD36C5BE698ABA4ECC /* SpoolKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		6A041B6F7A0A8B6283A8CD38 /* Redis */ = {
+			isa = PBXGroup;
+			children = (
+				012217A6E6EA4F88EBED83A6 /* ConsoleView.swift */,
+				4DD5735C962380E347FC10A6 /* KeyDetailView.swift */,
+				958BFF96271B69DB48E75BE8 /* KeysView.swift */,
+				EB00636C852931778B658D51 /* NewKeySheet.swift */,
+				0504D5A33D4DF45AA8CBEBF1 /* RedisDetail.swift */,
+				706728AD3BCFA79313616CC5 /* RedisServerView.swift */,
+			);
+			path = Redis;
+			sourceTree = "<group>";
+		};
+		BB9E12ECC849B48AA440C654 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7A4565BF7D6642BA563D060E /* Components.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DBFEFCEB5170A47FBD5FB7DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2E345CF14F2738A7FDDF194 /* ConnectionEditor.swift */,
+				7DB740BB298D516EC6E966A3 /* RootView.swift */,
+				F9EC6B115112C3C89863E8AD /* Rabbit */,
+				6A041B6F7A0A8B6283A8CD38 /* Redis */,
+				BB9E12ECC849B48AA440C654 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD179C7FE57014C0B45CA561 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D455B739261F0AD04D0743F9 /* ConnectionProfile.swift */,
+				34D8D5B0E99D88F3CB9359FF /* RabbitSession.swift */,
+				987184202711F5E20109D8AB /* RedisSession.swift */,
+				6D8F4219FA604D9F58530458 /* WatchStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9EC6B115112C3C89863E8AD /* Rabbit */ = {
+			isa = PBXGroup;
+			children = (
+				E0104E24F737720530D42021 /* ExchangesView.swift */,
+				27E4180284EE6541A1B379A1 /* PublishSheet.swift */,
+				484136F5491832392171A45F /* QueueDetailView.swift */,
+				91118829C98810FA9E7A77F3 /* QueuesView.swift */,
+				CD6244FF51AF86591972BC24 /* RabbitDetail.swift */,
+			);
+			path = Rabbit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDEE234C29B392C913CFEB5E /* Spool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25C73E15178ADEB46CB6E49 /* Build configuration list for PBXNativeTarget "Spool" */;
+			buildPhases = (
+				96DBF729C050483461176E89 /* Sources */,
+				DFCD661B4BDFFD6AF5EB4CF3 /* Resources */,
+				425E4DA63F855F48B8209ED2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spool;
+			packageProductDependencies = (
+				29E8EAFF37215E99805F5D5B /* SpoolKit */,
+			);
+			productName = Spool;
+			productReference = E26527B0500836CC5B83D0B4 /* Spool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C4AB2DB2A098AB3646C40FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BDEE234C29B392C913CFEB5E = {
+						DevelopmentTeam = LUPJND3R24;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1BBB74AA82008B4615C1C023 /* Build configuration list for PBXProject "Spool" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5C0FAC44CDC899B6DC6F5877;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				377BAD12E594B40333879271 /* XCLocalSwiftPackageReference "Packages/SpoolKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 339CF0BE4D9064330DE3C4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDEE234C29B392C913CFEB5E /* Spool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFCD661B4BDFFD6AF5EB4CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE0101036C8CB7834154318 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96DBF729C050483461176E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC19258CB2992ADF4340725 /* Components.swift in Sources */,
+				EAB820CABDDA1499E2D417B1 /* ConnectionEditor.swift in Sources */,
+				645C3B7D67DA3F24611E14C8 /* ConnectionProfile.swift in Sources */,
+				B2EBE5D37C03C69D87B9E9A8 /* ConsoleView.swift in Sources */,
+				9B37982A7342777B868DA719 /* ExchangesView.swift in Sources */,
+				A0984F7A93371F81E3263683 /* KeyDetailView.swift in Sources */,
+				A6DE23BBC95DD9644DA09294 /* KeysView.swift in Sources */,
+				EA307BC699EBB18AA14E2CBD /* NewKeySheet.swift in Sources */,
+				5DE43A67BCCB07CA5BDD973C /* PublishSheet.swift in Sources */,
+				A6E0182FB059E2C10A46427E /* QueueDetailView.swift in Sources */,
+				B921BFFE2893E0918C44D8EF /* QueuesView.swift in Sources */,
+				3D5D21A222A7CD9958279414 /* RabbitDetail.swift in Sources */,
+				CE1C29B123E75C88958433BD /* RabbitSession.swift in Sources */,
+				532BB77F971A4F3C2D667FA9 /* RedisDetail.swift in Sources */,
+				B0800E1BD1F0D4E3DFE7DC80 /* RedisServerView.swift in Sources */,
+				47C9DF5C192BA87370918B82 /* RedisSession.swift in Sources */,
+				442B3BCB79F478BBC4F444F4 /* RootView.swift in Sources */,
+				BB31F08734266D72F8476157 /* SpoolApp.swift in Sources */,
+				AF2417C375DB1CD18C788B66 /* WatchStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		149ACD99380949911E170906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Spool/Spool.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Spool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anilipeksumer.spool;
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Release;
+		};
+		52001032732F414FAF678CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Spool/Spool.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Spool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anilipeksumer.spool;
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Debug;
+		};
+		76DF91CD3CAF01B4D3233D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LUPJND3R24;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		8BFC6C76C571D8CE74B92A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LUPJND3R24;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BBB74AA82008B4615C1C023 /* Build configuration list for PBXProject "Spool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DF91CD3CAF01B4D3233D05 /* Debug */,
+				8BFC6C76C571D8CE74B92A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A25C73E15178ADEB46CB6E49 /* Build configuration list for PBXNativeTarget "Spool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52001032732F414FAF678CD8 /* Debug */,
+				149ACD99380949911E170906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		377BAD12E594B40333879271 /* XCLocalSwiftPackageReference "Packages/SpoolKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/SpoolKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29E8EAFF37215E99805F5D5B /* SpoolKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpoolKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9C4AB2DB2A098AB3646C40FD /* Project object */;
+}
