@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/anilipeksumer/Spool/releases/latest"><img alt="Download for macOS" src="https://img.shields.io/badge/Download_for_macOS-000000?style=for-the-badge&logo=apple&logoColor=white"></a>
+</p>
+
+<p align="center">
   <img alt="macOS 26+" src="https://img.shields.io/badge/macOS-26%2B-lightgrey">
   <img alt="Swift 6" src="https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white">
   <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue">
@@ -60,17 +64,25 @@ Backend work means living with caches and message brokers. Their built-in tools 
   <img src="docs/images/server.png" width="820" alt="The Redis server dashboard">
 </p>
 
-## Build and run
+## Install
 
-Requires Xcode 26 and macOS 26.
+1. [Download the latest release](https://github.com/anilipeksumer/Spool/releases/latest) (`Spool-x.y.z.dmg`).
+2. Open it and drag **Spool** into **Applications**.
+3. Add a Redis or RabbitMQ connection and you're in.
+
+Spool is signed with a Developer ID and notarized by Apple. It needs macOS 26 or later.
+
+## Build from source
+
+Requires Xcode 26.
 
 ```bash
 git clone https://github.com/anilipeksumer/Spool.git
 cd Spool
-brew install xcodegen   # the Xcode project is generated from project.yml
-xcodegen generate
 open Spool.xcodeproj
 ```
+
+The Xcode project is generated from `project.yml` with [XcodeGen](https://github.com/yonaskolb/XcodeGen); run `xcodegen generate` after adding or moving files.
 
 To try it without real servers:
 
